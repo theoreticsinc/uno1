@@ -32,7 +32,7 @@
         // Create the data model.
         //NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         //_pageData = [[dateFormatter monthSymbols] copy];
-        _pageData = [NSArray arrayWithObjects:@"p001.jpg", @"p002.jpg", @"p003.jpg", @"p004.jpg", @"p005.jpg", @"p006.jpg", @"p007.jpg", @"p008.jpg", @"p009.jpg", @"p010.jpg", @"p011.jpg", @"p012.jpg", @"p013.jpg", @"p014.jpg", @"p015.jpg", @"p016.jpg", @"p017.jpg", @"p018.jpg", @"p019.jpg", @"p020.jpg", @"p021.jpg", @"p022.jpg", @"p023.jpg", @"p024.jpg", @"p025.jpg", @"p026.jpg", nil];
+        _pageData = [NSArray arrayWithObjects:@"p001.jpg", @"p002.jpg", @"p003.jpg", @"p004.jpg", @"p005.jpg", @"p006.jpg", @"p007.jpg", @"p008.jpg", @"p009.jpg", @"p010.jpg", @"p011.jpg", @"p012.jpg", @"p013.jpg", @"p014.jpg", @"p015.jpg", nil];
     }
     return self;
 }

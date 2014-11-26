@@ -91,14 +91,18 @@
     if ([segue.identifier isEqualToString:@"pushProducts"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSString *youtubelink = [NSString stringWithFormat:@"youtube_%@", [products objectAtIndex:indexPath.row]];
+        NSString *scilink = [NSString stringWithFormat:@"science_%@", [products objectAtIndex:indexPath.row]];
+        NSString *testilink = [NSString stringWithFormat:@"testi_%@", [products objectAtIndex:indexPath.row]];
         NSString *desclink = [NSString stringWithFormat:@"desc_%@", [products objectAtIndex:indexPath.row]];
         
         DetailsViewController *destViewController = segue.destinationViewController;
         
         destViewController.recipeName = NSLocalizedString(desclink, nil);
         destViewController.youtube_link = NSLocalizedString(youtubelink, nil);
+        destViewController.science_link = NSLocalizedString(scilink, nil);
+        destViewController.testimonial_link = NSLocalizedString(testilink, nil);
         NSLog(@"YOUTUBE%@", destViewController.youtube_link);
-        destViewController.imageFile = [productsIcons objectAtIndex:indexPath.row];
+        destViewController.imageFile = [productsImages objectAtIndex:indexPath.row];
         
     }
 }

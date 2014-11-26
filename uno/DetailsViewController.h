@@ -15,5 +15,6 @@
 @property (strong) NSString *recipeName;
 @property (strong) NSString *imageFile;
 @property (strong) NSString *youtube_link;
-
+@property (strong) NSString *science_link;
+@property (strong) NSString *testimonial_link;
 @end
