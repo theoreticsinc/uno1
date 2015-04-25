@@ -29,9 +29,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    products = [NSArray arrayWithObjects:@"Glutathione Capsule", @"Supercharged",@"Fit Right",@"Grape Seed Extract",@"Kryptorganic",@"Ultima - C", @"Coco Oil", @"Wheatgrass", nil];
-    productsIcons = [NSArray arrayWithObjects:@"gluta.png", @"supercharge.png",@"Fit-Right.png",@"grapeseed.png",@"kryptorganic.png",@"ultimaC.png",@"virginoil.png",@"wheat.png",  nil];
-    productsImages = [NSArray arrayWithObjects:@"prod_glutacap.jpg", @"prod_supercharged.jpg",@"prod_fitright.jpg",@"prod_grapeseed.jpg",@"prod_kryptorganic.jpg",@"prod_ultimac.jpg",@"prod_coco_oil.jpg",@"prod_wheatgrass_barley.jpg",  nil];
+    products = [NSArray arrayWithObjects:@"Glutathione Capsule", @"Supercharged",@"Fit Right",@"Grape Seed Extract",@"Kryptorganic",@"Ultima - C", @"Coco Oil", @"Wheatgrass", @"Vitalife", nil];
+    productsIcons = [NSArray arrayWithObjects:@"gluta.png", @"supercharge.png",@"Fit-Right.png",@"grapeseed.png",@"kryptorganic.png",@"ultimaC.png",@"virginoil.png",@"wheat.png", @"vitalife.png",  nil];
+    productsImages = [NSArray arrayWithObjects:@"prod_glutacap.jpg", @"prod_supercharged.jpg",@"prod_fitright.jpg",@"prod_grapeseed.jpg",@"prod_kryptorganic.jpg",@"prod_ultimac.jpg",@"prod_coco_oil.jpg",@"prod_wheatgrass_barley.jpg", @"prod_vitalife.jpg",  nil];
     self.navigationItem.title = @"UNO Food Supplement";
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back"
                                                                    style:UIBarButtonItemStyleDone target:self action:@selector(back)];

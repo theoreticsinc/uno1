@@ -174,6 +174,8 @@
 		172E4C6919C69AF100551E8B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 172E4C5819C69AF100551E8B /* Icon@2x.png */; };
 		172F30E61A08573F001BD713 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172F30E51A08573F001BD713 /* DetailsViewController.m */; };
 		1739EDDE1A0C5AC600CA23D6 /* prod_glutalotion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1739EDDD1A0C5AC600CA23D6 /* prod_glutalotion.jpg */; };
+		174D4DFE1A339CDE0090A1F7 /* prod_vitalife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174D4DFD1A339CDE0090A1F7 /* prod_vitalife.jpg */; };
+		174D4E001A33A26C0090A1F7 /* vitalife.png in Resources */ = {isa = PBXBuildFile; fileRef = 174D4DFF1A33A26C0090A1F7 /* vitalife.png */; };
 		17520B0B1A10475800C8CDC9 /* p001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17520AFC1A10475800C8CDC9 /* p001.jpg */; };
 		17520B0C1A10475800C8CDC9 /* p002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17520AFD1A10475800C8CDC9 /* p002.jpg */; };
 		17520B0D1A10475800C8CDC9 /* p003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17520AFE1A10475800C8CDC9 /* p003.jpg */; };
@@ -450,6 +452,8 @@
 		172F30E41A08573F001BD713 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		172F30E51A08573F001BD713 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		1739EDDD1A0C5AC600CA23D6 /* prod_glutalotion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prod_glutalotion.jpg; sourceTree = "<group>"; };
+		174D4DFD1A339CDE0090A1F7 /* prod_vitalife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prod_vitalife.jpg; sourceTree = "<group>"; };
+		174D4DFF1A33A26C0090A1F7 /* vitalife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vitalife.png; sourceTree = "<group>"; };
 		17520AFC1A10475800C8CDC9 /* p001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p001.jpg; sourceTree = "<group>"; };
 		17520AFD1A10475800C8CDC9 /* p002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p002.jpg; sourceTree = "<group>"; };
 		17520AFE1A10475800C8CDC9 /* p003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p003.jpg; sourceTree = "<group>"; };
@@ -577,6 +581,7 @@
 		172BD52D19CC4E5000E18BA9 /* ProductArt */ = {
 			isa = PBXGroup;
 			children = (
+				174D4DFD1A339CDE0090A1F7 /* prod_vitalife.jpg */,
 				1739EDDD1A0C5AC600CA23D6 /* prod_glutalotion.jpg */,
 				172BD53819CC4EC500E18BA9 /* prod_8in1.jpg */,
 				172BD53919CC4EC500E18BA9 /* prod_8in1lite.jpg */,
@@ -669,6 +674,7 @@
 		172BD5A619CC555900E18BA9 /* foodsupplement */ = {
 			isa = PBXGroup;
 			children = (
+				174D4DFF1A33A26C0090A1F7 /* vitalife.png */,
 				172BD5A719CC555900E18BA9 /* Fit-Right.png */,
 				172BD5A819CC555900E18BA9 /* gluta.png */,
 				172BD5A919CC555900E18BA9 /* grapeseed.png */,
@@ -1272,6 +1278,7 @@
 				172E4C1219C67F9F00551E8B /* ic_breakthru.png in Resources */,
 				172E4C1E19C67F9F00551E8B /* ic_healthydrinks.png in Resources */,
 				1739EDDE1A0C5AC600CA23D6 /* prod_glutalotion.jpg in Resources */,
+				174D4DFE1A339CDE0090A1F7 /* prod_vitalife.jpg in Resources */,
 				17D1730019CA65E000A027DC /* director1.jpg in Resources */,
 				172BD55F19CC4EC500E18BA9 /* prod_corncoffee.jpg in Resources */,
 				172E4C3619C687EC00551E8B /* tab_company.png in Resources */,
@@ -1311,6 +1318,7 @@
 				172E4BE419C67A2500551E8B /* icons_certificates.png in Resources */,
 				172E4C5D19C69AF100551E8B /* Icon-72.png in Resources */,
 				17520B101A10475800C8CDC9 /* p006.jpg in Resources */,
+				174D4E001A33A26C0090A1F7 /* vitalife.png in Resources */,
 				17CEC80719D185B800C84CCB /* x012.jpg in Resources */,
 				172BD58319CC52ED00E18BA9 /* choco8.png in Resources */,
 			);
@@ -1493,13 +1501,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Herbert Chua (UNS2Z2ZQF9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Herbert Chua (UNS2Z2ZQF9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "uno/uno-Prefix.pch";
 				INFOPLIST_FILE = "uno/uno-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3a4330e2-4ba6-477d-937b-1227c6410901";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1509,13 +1518,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Herbert Chua (UNS2Z2ZQF9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Herbert Chua (UNS2Z2ZQF9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "uno/uno-Prefix.pch";
 				INFOPLIST_FILE = "uno/uno-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3a4330e2-4ba6-477d-937b-1227c6410901";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
